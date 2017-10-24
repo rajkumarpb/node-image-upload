@@ -1,9 +1,14 @@
-# Node.js Local File Upload
+# Local File Upload
 
 A simple application used for uploading images directly to the server. The application also validates extensions and prevents submitting the form without an image.
 
 ### TECHNOLOGIES/NPM MODULES
 1. multer
+2. Node.js
+3. Express.js
+
+### FUTURE
+1. Upload photos to an image hosting API instead, unless you're on a monster server!
 
 ### DOCUMENTATION
 1. multer: https://github.com/expressjs/multer
