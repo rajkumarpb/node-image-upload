@@ -45,7 +45,7 @@ app.set('view engine', 'ejs');
 
 // SETTING STATIC PUBLIC FOLDER
 // ALLOWS ACCESS THESE FILES DIRECTLY FROM THE BROWSER
-app.use(express.static('./public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
   res.render('index');
